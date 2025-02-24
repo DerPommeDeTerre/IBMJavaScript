@@ -33,16 +33,16 @@ console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
 
 //Practice Task - Variable reassignment
-function newBlock(){
-    var varOne = "var one";
-    let letOne = "let one";
-    const constoOe = "const one";
+// function newBlock(){
+//     var varOne = "var one";
+//     let letOne = "let one";
+//     const constoOe = "const one";
 
-    var varOne = "var two";
-    let letOne = "let two";
-    const constOne = "const two";
-}
+//     var varOne = "var two";
+//     let letOne = "let two";
+//     const constOne = "const two";
+// }
 
-var varOne = "var three";
-let letOne = "let three";
-const constOne = "const three";
+// var varOne = "var three";
+// let letOne = "let three";
+// const constOne = "const three";
