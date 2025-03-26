@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+</head>
+<body>
+    <h1>Weather Report</h1>
+
+    <form id="weatherForm">
+        <label for="citt">Enter City Name: </label>
+        <input type="text" id="city" name="city">
+        <button type="submit">Get Weather</button>
+    </form>
+    <br>
+    <form id="weatherFormLatitude">
+        <label for="latitude">Enter Latitude: </label>
+        <input type="number" id="latitude" name="latitude" min="-180" max="180" step="any">
+        <label for="longitude">Enter Longitude: </label>
+        <input type="number" id="longitude" name="longitude" min="-180" max="180" step="any">
+        <button type="submit" id="btnlatitude">Get Weather 2</button>
+    </form>
+
+    <div id="weatherInfo"></div>
+    <script src="weatherReport.js"></script>
+</body>
+</html>
