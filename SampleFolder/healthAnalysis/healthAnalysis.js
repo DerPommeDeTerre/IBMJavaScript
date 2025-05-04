@@ -74,7 +74,7 @@
 
     fetch("healthAnalysis.json")//requests the healthAnalysis.json file
     .then(function(response){//.then is a PROMISE, response is the server's response
-        return response.json();//converts the response into a .json as teh response is an object
+        return response.json();//converts the response into a .json as the response is an object
     })
     .then(function(data){//runs after the response finishes, data holds the parsed .json
         const condition = data.conditions.find(function(item){//find loops through the conditions array
